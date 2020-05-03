@@ -25,9 +25,12 @@ func buscaapi(estado string) {
 	// resultado
 	fmt.Println(estado)
 	fmt.Printf(string(responseJson))
-	fmt.Println("\n Deseja consultar outro estado ? SIM(S) NÃO(N) \t ")
+	fmt.Println("\n Deseja consultar outro estado ? SIM(S) NÃO(N) ")
 	fmt.Scanln(&resposta)
 	if resposta == "S"{
 		main()
-	} else {}
+	} else if resposta == "s"{
+		main ()
+	} else{}
+	//fmt.Println("\n Evolução dos", len(dadosJson), "dias desde a primeira contaminação!")
 }
