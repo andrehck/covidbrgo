@@ -11,6 +11,7 @@ var password = "123456"
 func main (){
 var estado string
 fmt.Print("Informe a sigla do estado: \n  Ex: MG - Minas Gerais \n Sigla: ")
+fmt.Print(password)
 fmt.Scanln(&estado)
 buscaapi(estado)
 }
