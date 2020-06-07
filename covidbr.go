@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 var resposta string
+var password = "123456"
 
 func main (){
 var estado string
