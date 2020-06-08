@@ -6,12 +6,14 @@ import (
 	"net/http"
 )
 var resposta string
-password := "123456"
+var pass = "123456"
+var key = "1111"
 
 func main (){
 var estado string
 fmt.Print("Informe a sigla do estado: \n  Ex: MG - Minas Gerais \n Sigla: ")
-fmt.Print(password)
+fmt.Print(pass)
+fmt.Print(key)
 fmt.Scanln(&estado)
 buscaapi(estado)
 }
